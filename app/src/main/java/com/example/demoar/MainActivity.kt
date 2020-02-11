@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val texture = ExternalTexture()
-        val mediaPlayer = MediaPlayer.create(this, R.raw.video).apply {
+        val mediaPlayer = MediaPlayer.create(this, R.raw.presi).apply {
             setSurface(texture.surface)
             isLooping = true
         }
